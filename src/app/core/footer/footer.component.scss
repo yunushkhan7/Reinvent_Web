@@ -1,0 +1,257 @@
+.footer {
+  &-top {
+    padding: 60px 0 40px;
+  }
+
+  &-nav-list {
+    cursor: pointer;
+  }
+}
+
+footer {
+  .footer-bottom {
+    @media (min-width: 768px) {
+      .border-l {
+        border-left: 1px solid #959595;
+      }
+
+      .border-2 {
+        border-top: 1px solid #959595 !important;
+      }
+    }
+
+    .email-text {
+      color: var(--color-secondary-new);
+    }
+
+    .address-fotter {
+      font-weight: 500;
+    }
+
+    .logo-main-footer {
+      img {
+        max-width: 150px;
+        width: 100%;
+      }
+
+      @media (min-width: 320px) and (max-width: 576px) {
+        width: 35%;
+      }
+
+      @media (max-width: 767px) {
+        max-width: 160px;
+      }
+    }
+
+    .bottom-link {
+      ul {
+        list-style: none;
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        display: inline-flex;
+
+        li {
+          margin-right: 22px;
+
+          a {
+            font-size: 13px;
+            color: var(--color-secondary-new);
+            font-weight: 500;
+
+            &:hover {
+              color: var(--black);
+            }
+          }
+
+          &::before {
+            content: "\2022";
+            color: var(--color-secondary-new);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+          }
+        }
+      }
+    }
+
+    .copyright-text {
+      p {
+        color: #414141;
+      }
+    }
+
+    .footer-social-list {
+      li {
+        color: var(--color-secondary-new);
+        font-weight: 500;
+        font-size: 13px;
+        text-transform: uppercase;
+
+        a {
+          border: 2px solid var(--color-secondary-new);
+          background-color: var(--color-secondary-new);
+          color: var(--white);
+          border-radius: 144px;
+
+          &:hover {
+            color: var(--color-secondary-new) !important;
+            border-color: var(--color-secondary-new) !important;
+            background-color: transparent !important;
+          }
+        }
+      }
+    }
+  }
+
+  /* ---- footer-bottom-2 end ---- */
+}
+
+.footer-section {
+  background-color: black;
+}
+
+.newsletter-form .input-newsletter {
+  border-color: var(--black);
+  border-radius: 5px;
+  border-width: thin;
+}
+
+.dark-btn {
+  background-color: var(--color-secondary-new);
+  border-color: var(--color-secondary-new);
+  color: #fff;
+
+  &:hover {
+    background-color: transparent;
+    border-color: var(--color-secondary-new);
+    color: var(--color-secondary-new);
+  }
+}
+
+.contanct-detail {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 15px;
+  color: #000;
+
+  li {
+    color: var(--body-color);
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 10px 0;
+
+    span {
+      color: var(--color-secondary-new);
+      margin-right: 8px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .d_sm_none {
+    display: none;
+  }
+}
+
+.footer-single-col {
+  color: #c19825 !important;
+
+  h3 {
+    color: var(--color-secondary-new);
+  }
+
+  img {
+    max-width: 200px;
+    width: 100%;
+  }
+}
+
+.footer_accordion {
+  ul {
+    li {
+      a {
+        color: var(--body-color) !important;
+      }
+    }
+  }
+}
+.footer_copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: #414141;
+  }
+}
+.footer_menuitems {
+  margin-top: 4px;
+  margin-bottom: 0;
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    &:last-child {
+      border-left: 1px solid;
+      line-height: 1.2;
+    }
+    a {
+      color: #000;
+    }
+  }
+}
+.reinvent_footer {
+  background: black;
+  padding: 2rem;
+  @media (min-width: 320px) and (max-width: 991px) {
+    padding: 1rem;
+  }
+  .reinvent_copright {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    @media (min-width: 320px) and (max-width: 991px) {
+      display: block;
+    }
+    .copyright_contant {
+      @media (min-width: 320px) and (max-width: 991px) {
+        margin-bottom: 15px;
+      }
+      p {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Avenir Next", sans-serif;
+        margin-bottom: 0;
+        a {
+          color: #cdcdcd;
+          font-size: 17px;
+          font-weight: 400;
+          font-family: "Avenir Next", sans-serif;
+        }
+      }
+    }
+    .copyright_link {
+      ul {
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        list-style: none;
+        li {
+          padding: 0 10px;
+          a {
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: "Avenir Next", sans-serif;
+          }
+          &:last-child {
+            border-left: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+}

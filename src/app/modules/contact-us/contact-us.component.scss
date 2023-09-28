@@ -1,0 +1,758 @@
+.touch-in {
+  width: 100%;
+
+  img {
+    width: 100%;
+
+    @media only screen and (max-width: 567px) {
+      height: 253px;
+    }
+  }
+}
+
+.icon-box.left {
+  text-align: left;
+}
+
+.bg-black-333 {
+  background-color: #7b68ee !important;
+}
+
+.icon-box {
+  padding: 25px;
+}
+
+.icon-box:hover {
+  box-shadow: rgb(171 181 189 / 50%) 0px 35px 100px 0px !important;
+}
+
+.media-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media-icon i {
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+.form-group{
+  margin-bottom: 1rem;
+}
+::ng-deep .contact_us {
+  .modal-content {
+    background-image: url("/assets/img//asz/contact_bg.jpg");
+    background-size: cover;
+    background-position: 0px 55px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+
+  .modal-dialog {
+    max-width: 800px;
+
+    @media (max-width: 575px) {
+      max-width: 96%;
+    }
+  }
+}
+
+.dicussion {
+  padding: 80px 0;
+  background: #fbfbfb;
+
+  @media (max-width: 575px) {
+    padding: 40px 0;
+  }
+}
+
+.contact-header {
+  background-color: var(--orange-light);
+
+  .contact_banner {
+    padding: 30px 0;
+    position: relative;
+    // background-image: url(../../../assets/img/reinvent/round-dot.PNG);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-top: 75px;
+    background-size: 34% 125%;
+
+    span {
+      color: white;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    h1 {
+      color: #c06014;
+    }
+
+    p {
+      max-width: 545px;
+      color: white;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: -60px;
+      height: 230px;
+      border-radius: 10px;
+      z-index: 1;
+
+      @media (max-width: 575px) {
+        position: static;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contact-promo {
+  @media (max-width: 575px) {
+    padding: 15px 0;
+  }
+
+  .contact-us-promo {
+    .contact-promo-info {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+
+      h6 {
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 300;
+        color: #fff;
+      }
+
+      h4 {
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 700 !important;
+        color: #fff;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      ul {
+        padding-left: 0;
+
+        li {
+          list-style: none;
+          text-align: center;
+
+          a {
+            display: block;
+            background-color: black;
+            padding: 8px 18px;
+            font-size: 18px;
+            color: var(--color-secondary-new);
+            font-weight: 500;
+            text-decoration: none;
+            font-family: "Avenir Next", sans-serif;
+          }
+        }
+      }
+
+      .fil_form {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .contact_us {
+    margin-top: 0px;
+
+    .heading {
+      margin-bottom: 25px;
+
+      @media (max-width: 575px) {
+        margin-top: 30px;
+      }
+
+      > span {
+        color: var(--color-secondary-new);
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      h4 {
+        color: var(--black);
+
+        span {
+          position: relative;
+
+          &::before {
+            position: absolute;
+            content: "";
+            bottom: -2px;
+            left: 0;
+            height: 2px;
+            background-color: var(--color-secondary-new);
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.contact-us-promo {
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+}
+
+.btn_sendmsg {
+  border: 1px solid var(--color-secondary-new);
+  color: #fff !important;
+  background-color: var(--color-secondary-new);
+  transition: all 0.4s ease-out;
+  padding: 6px 20px;
+
+  &:hover {
+    transition: all 0.4s ease-out;
+    background-color: transparent;
+    color: var(--color-secondary-new) !important;
+  }
+}
+
+.btn_reset {
+  border: 1px solid var(--color-secondary-new);
+  color: #fff !important;
+  background-color: var(--color-secondary-new);
+  transition: all 0.4s ease-out;
+  padding: 6px 20px;
+
+  &:hover {
+    transition: all 0.4s ease-out;
+    background-color: transparent;
+    color: var(--color-secondary-new) !important;
+  }
+}
+
+.form_heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.row-bg {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-flex {
+  display: flex;
+  align-items: center;
+}
+
+.button-cancel {
+  background-color: var(--orange-color);
+  border: 1px solid transparent;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid var(--orange-color);
+    color: var(--orange-color);
+  }
+}
+
+.submit-btn {
+  background: var(--blue-color);
+  border: 1px solid transparent;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+  }
+}
+
+::ng-deep .footer-section {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.form-check-label {
+  span {
+    color: var(--gray-light);
+    font-weight: 600;
+  }
+}
+
+.address-sec {
+  h3 {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.flag-img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.box-new {
+  background-color: #cdcdcd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 100% !important;
+  padding: 17px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  min-height: 13em;
+
+  h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    color: black;
+    font-weight: 550 !important;
+    font-family: "Avenir Next", sans-serif;
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    font-family: "Avenir Next", sans-serif;
+  }
+
+  .icon-s {
+    position: absolute;
+    font-size: 93px;
+    line-height: 90px;
+    color: #c060142e;
+    opacity: 1;
+    bottom: 34px;
+    right: 15px;
+  }
+}
+
+.contact-us {
+  padding: 5rem 0;
+  background: #fafafa;
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    padding: 2rem 0;
+  }
+
+  .card {
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: inherit;
+    box-shadow: 0 5px 20px 0 rgba(210, 210, 245, 0.9);
+    border: 1px solid #c06014;
+    width: 330px;
+    gap: 16px;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .card-imgs {
+      background: #f6f9fb;
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 32px;
+        opacity: 0.6;
+      }
+    }
+
+    h5 {
+      font-size: 20px;
+      color: #c06014;
+      margin: 0;
+      font-weight: 500 !important;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0;
+      color: black;
+      font-weight: 400 !important;
+    }
+  }
+}
+
+.contact-form-reinvent {
+  margin-top: 40px;
+}
+
+.form-check-label {
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #575757;
+}
+
+.image-feature {
+  padding: 5rem 0;
+  background-image: url(../../../assets/img/reinvent/contact-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  @media (min-width: 320px) and (max-width: 991px) {
+    padding: 3rem 0;
+  }
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 399px;
+}
+
+.solution {
+  background-image: url(../../../assets/img/reinvent/contact-banner.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-top: 144px;
+  text-align: center;
+  min-height: 300px;
+  @media (min-width: 320px) and (max-width: 991px) {
+    min-height: 140px;
+    padding-top: 71px;
+  }
+  .breadcrumb {
+    background: none;
+    margin-bottom: 0;
+    float: right;
+    padding: 0;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      float: none;
+      display: block;
+    }
+
+    .tm_bread_crumb {
+      padding: 15px 20px;
+      display: inline-block;
+      border-radius: 100px;
+    }
+  }
+
+  .entry-title {
+    font-size: 50px;
+    color: white;
+    float: left;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      float: none;
+      font-size: 40px;
+    }
+  }
+}
+
+.tm_bread_crumb li {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+
+  a {
+    color: #a6a6ac;
+    text-decoration: none;
+
+    i {
+      font-size: 13px;
+    }
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.keep-form {
+  input,
+  textarea {
+    border-radius: 0;
+
+    &::placeholder {
+      font-weight: 400;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.col-md-12.contact-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    display: block;
+    gap: 10px;
+  }
+
+  .contact-img {
+    img {
+      width: 264px;
+
+      @media (min-width: 320px) and (max-width: 991px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .keep-form {
+    margin-bottom: 20px;
+
+    .get-touch {
+      margin-left: 16px;
+    }
+  }
+}
+img.rounded-custom {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.contact-us-promo {
+  background-image: url(../../../assets/img/reinvent/feature-bg.jpg);
+  //   background-color: #ffa547;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 452px;
+  border-radius: 12px;
+  overflow: hidden;
+
+  @media (max-width: 575px) {
+    padding: 12px;
+    overflow: inherit;
+    height: 298px;
+    margin-bottom: 15px;
+  }
+
+  .contact-promo-info {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+    h6 {
+      font-size: 45px;
+      font-style: italic;
+      font-weight: 300;
+      color: #fff;
+
+      @media (max-width: 575px) {
+        font-size: 36px;
+      }
+    }
+
+    h4 {
+      font-size: 45px;
+      font-style: italic;
+      font-weight: 700 !important;
+      color: #fff;
+
+      @media (max-width: 575px) {
+        font-size: 36px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 400;
+      font-style: italic;
+      color: black;
+      width: 386px;
+      margin: 0 auto;
+      text-align: center;
+      @media (min-width: 320px) and (max-width: 991px) {
+        font-size: 16px;
+        width: auto;
+      }
+    }
+
+    ul {
+      display: block;
+      text-align: center;
+      padding-left: 0;
+      gap: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      @media (max-width: 575px) {
+        flex-direction: column;
+      }
+
+      li {
+        list-style: none;
+
+        a {
+          display: block;
+          background-color: black;
+          padding: 8px 18px;
+          font-size: 20px;
+          font-weight: 500;
+          text-decoration: none;
+          font-family: "Avenir Next", sans-serif;
+          @media (min-width: 320px) and (max-width: 991px) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .fil_form {
+      font-size: 14px;
+    }
+  }
+}
+
+.let_talk {
+  background: black;
+  color: white !important;
+  border: 1px solid transparent;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 7px 28px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 47px;
+  margin-top: 16px;
+  float: right;
+  font-weight: 500 !important;
+  font-size: 20px;
+
+  &:hover {
+    border-color: #cdcdcd;
+    background: #cdcdcd;
+    color: black !important;
+  }
+}
+.about-map-head-mobile {
+  display: none;
+  @media (min-width: 320px) and (max-width: 991px) {
+    display: block;
+  }
+}
+.about-map-head {
+  @media (min-width: 320px) and (max-width: 991px) {
+    display: none;
+  }
+}
+
+.image-feature {
+  img {
+    width: 400px;
+    @media (min-width: 320px) and (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  .reinvent-locations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    .reinvent_office {
+      background: #cdcdcd;
+      border-radius: 5px;
+      // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      padding: 15px;
+      height: 229px;
+      width: 32.33%;
+      @media (min-width: 320px) and (max-width: 991px) {
+        width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+      }
+      h3 {
+        color: black;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        color: black;
+      }
+    }
+  }
+}
+::ng-deep .contact_form_dialog{
+  text-align: center;
+  .mdc-dialog__container{
+    .mdc-dialog__surface{
+      padding: 30px;
+      display: flex;
+      align-items: center;
+    }
+    h2{
+
+    }
+    p{
+      max-width: 475px;
+    }
+    .let_talk{
+      padding: 4px 36px;
+    }
+  }
+}

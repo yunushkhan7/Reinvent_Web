@@ -1,0 +1,362 @@
+.contact_no button {
+  border-radius: 0px;
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  // &::before {
+  // 	content: '';
+  // 	position: absolute;
+  // 	z-index: -2;
+  // 	left: -50%;
+  // 	top: -50%;
+  // 	width: 200%;
+  // 	height: 200%;
+  // 	background-color: #399953;
+  // 	background-repeat: no-repeat;
+  // 	background-size: 50% 50%, 50% 50%;
+  // 	background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  // 	background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+  // 	animation: rotate 4s linear infinite;
+  // }
+
+  // &::after {
+  // 	content: '';
+  // 	position: absolute;
+  // 	z-index: -1;
+  // 	left: 6px;
+  // 	top: 6px;
+  // 	width: calc(100% - 12px);
+  // 	height: calc(100% - 12px);
+  // 	background: white;
+  // 	border-radius: 5px;
+  // }
+}
+
+// @keyframes rotate {
+// 	100% {
+// 		transform: rotate(1turn);
+// 	}
+// }
+.main-header {
+  z-index: 9;
+  background-color: #fafafa;
+  top: 0;
+}
+
+select.selectpicker {
+  /* padding: 8px 14px; */
+  border-radius: 24px;
+  width: 148px;
+  padding: 5px 5px;
+  background: #fcdde1;
+  border: 1px solid #ba7f87;
+}
+
+.btn .caret {
+  margin-left: 0;
+  display: none;
+}
+
+li.language-line {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  &:active {
+    background: transparent !important;
+    color: #000 !important;
+  }
+}
+
+li.language-line img {
+  width: 36px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 20px 0 rgb(210 210 245 / 60%);
+}
+
+li.language-line a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.btn-soft-primary:hover,
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #c19825;
+  border-color: #c19825;
+}
+
+.btn {
+  border: 1px solid #c19825;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background: #ffffff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.dropdown-menu {
+  min-width: 12rem;
+  padding: 0;
+}
+
+// .dropdown-grid-item:focus-within{
+//   display: none;
+// }
+
+// nav-iocn style
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 4px);
+  transform: rotate(-45deg) translate(-9px, 4px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -4px);
+  transform: rotate(45deg) translate(-8px, -4px);
+}
+
+.logo-main {
+  img {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  @media (min-width: 320px) and (max-width: 576px) {
+    width: 80%;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .flag-icon {
+    width: 30px;
+  }
+
+  .m-r-35 {
+    margin-right: 60px;
+  }
+
+  .border-n {
+    border: none;
+  }
+}
+
+@keyframes lds-ripple {
+  0% {
+    outline: 4px solid #eee;
+  }
+
+  100% {
+    outline: 4px solid #eee;
+  }
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 991px) {
+    font-size: 20px;
+    margin-left: 11px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sticky-header {
+    height: 54px;
+    padding: 0 0 !important;
+  }
+}
+
+.navbar {
+  .container-fluid {
+    max-width: 1300px;
+  }
+}
+
+.main-menu li a.nav-link:hover {
+  color: white;
+}
+
+ul.main-menu {
+  padding-right: 0;
+  padding-bottom: 0;
+  align-items: center;
+  gap: 23px;
+}
+.main-menu li a {
+  color: black;
+  text-transform: uppercase;
+}
+.main-menu li a.active-link {
+  color: white !important;
+}
+
+.dropdown-toggle:focus {
+  color: var(--color-secondary-new);
+}
+
+.language-list {
+  left: 40px !important;
+}
+
+.dropdown-toggle {
+  width: 140px;
+
+  @media (max-width: 767px) {
+    width: auto;
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  li.language-line {
+    font-size: 12px;
+
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.main-menu li a.nav-link {
+  padding: 0.35rem 1.5rem;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+.lets_talk {
+  background: #c06016;
+  color: white !important;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: #c06016;
+    background: transparent;
+    color: #c06016 !important;
+  }
+}
+
+.sticky-header {
+  padding: 10px 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    padding: 0 !important;
+  }
+}
+.affix {
+  .navbar-brand {
+    color: white;
+  }
+}
+.btn-outline {
+  border: 2px solid black;
+  color: #cdcdcd !important;
+  display: inline-block;
+  padding: 0 32px;
+  font-size: 16px;
+  font-weight: 500 !important;
+  background: black;
+  border-radius: 47px;
+  -webkit-box-shadow: 0 10px 15px 0 rgb(3 35 68 / 10%);
+  box-shadow: 0 10px 15px 0 rgb(3 35 68 / 10%);
+  text-decoration: none;
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    width: -webkit-fill-available;
+  }
+
+  &:hover {
+    border: 2px solid black;
+    background: transparent;
+    color: black !important;
+  }
+}
+
+.lnk {
+  position: relative;
+  overflow: hidden;
+}
+
+.lnk:hover span.button_circle {
+  top: -10%;
+  right: -80px;
+}
+
+span.button_circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.navbar-toggler {
+  .container {
+    @media (min-width: 320px) and (max-width: 991px) {
+      padding-right: 0 !important;
+    }
+  }
+}
+.offcanvas-header {
+  background: #cdcdcd;
+}
+.offcanvas-body {
+  background: #cdcdcd;
+}
+
+.nav_raduis {
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 72px;
+    background: #cdcdcd;
+    border-radius: 50px 0px 0px 50px;
+    z-index: -1;
+    width: calc(60% - 75px);
+    @media (min-width: 320px) and (max-width: 991px) {
+      width: 20%;
+      height: 54px;
+    }
+  }
+}

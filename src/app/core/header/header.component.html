@@ -1,0 +1,162 @@
+<!-- <header class="header-area">
+  <div class="container">
+    <div class="header-wrap">
+      <div class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg">
+        <div class="col menu-left">
+          <a class="active">Home</a>
+          <a>Solutions</a>
+          
+        </div>
+        <div class="col-5 text-lg-center mt-2 mt-lg-0">
+          <div class="logo">
+            <a><h1>Reinvent APAC <br>Pte Ltd</h1></a>
+          </div>
+        </div>
+        <nav class="col navbar navbar-expand-lg justify-content-end">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+        <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
+          <ul class="navbar-nav justify-content-center w-100">
+            
+            <li class="nav-item"><a class="nav-link">Products</a></li>
+            <li class="nav-item"><a class="nav-link">Let's Talk</a></li>
+            
+          </ul>
+        </div>
+        </nav>
+        
+      </div>
+    </div>
+  </div>
+</header> -->
+<header class="main-header position-absolute w-100">
+  <nav class="navbar navbar-expand-xl navbar-light sticky-header nav_raduis">
+    <div
+      class="container d-flex align-items-center justify-content-lg-between position-relative"
+    >
+      <a
+        routerLink="/home"
+        class="logo-main navbar-brand d-flex align-items-center mb-md-0 text-decoration-none"
+      >
+        Reinvent APAC Pte Ltd
+      </a>
+      <a
+        class="navbar-toggler position-absolute right-0 border-0 d-lg-none"
+        role="button"
+        (click)="menutoggle()"
+      >
+        <div class="container">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </a>
+      <div class="clearfix"></div>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+          <li>
+            <a
+              class="nav-link"
+              routerLink="/home"
+              routerLinkActive="active-link"
+              >Home</a
+            >
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              routerLinkActive="active-link"
+              routerLink="/solutions"
+            >
+              Solutions
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              routerLinkActive="active-link"
+              routerLink="/products"
+              >Products
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              routerLinkActive="active-link"
+              routerLink="/contact-us"
+              >Let's Talk
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasWithBackdrop"
+        [class.show]="MenuToggle"
+      >
+        <div class="offcanvas-header d-flex align-items-center">
+          <a
+            routerLink="/home"
+            class="logo-main d-flex align-items-center mb-md-0 text-decoration-none"
+          >
+            Reinvent APAC Pte Ltd
+          </a>
+          <button
+            type="button"
+            class="close-btn bg-white text-muted h3"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+            (click)="menutoggle()"
+          >
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+            <li>
+              <a
+                class="nav-link"
+                routerLink="/home"
+                routerLinkActive="active-link"
+                (click)="menutoggle()"
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav-link"
+                routerLink="/solutions"
+                routerLinkActive="active-link"
+                (click)="menutoggle()"
+                >Solutions</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav-link"
+                routerLink="/products"
+                routerLinkActive="active-link"
+                (click)="menutoggle()"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link lets_talk btn-outline lnk"
+                routerLinkActive="active-link"
+                routerLink="/contact-us"
+                (click)="menutoggle()"
+                >Let's Talk
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

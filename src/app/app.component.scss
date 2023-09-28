@@ -1,0 +1,68 @@
+.checkbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #26281b;
+    -webkit-box-shadow: -2px 3px 51px 7px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -2px 3px 51px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: -2px 3px 51px 7px rgba(0, 0, 0, 0.15);
+    z-index: 99;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+        width: 50px;
+    height: 50px;
+    bottom: 11px;
+    }
+
+    .chat-button {
+        background: transparent;
+        border: none;
+    }
+
+    img {
+        width: 35px;
+        @media (min-width: 320px) and (max-width: 991px) {
+            width: 30px;
+        
+        }
+    }
+
+}
+
+.ScrollTop-btn {
+    background: #aaddfd;
+    width:62px;
+    height:62px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 107px;
+    bottom: 27px;
+    border: 0;
+    z-index: 99;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-size: 24px;
+    color: #646464;
+    @media (min-width: 320px) and (max-width: 991px) {
+        width:50px!important;
+        height:50px!important;
+    
+    }
+    img{
+        width:19px;
+        height:19px;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+}

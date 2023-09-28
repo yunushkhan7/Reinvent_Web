@@ -1,0 +1,46 @@
+@import 'colors';
+
+.button-primary{
+    padding: 6px 22px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    border: 1px solid transparent;
+    transition: all linear 0.2s;
+    border-radius: 0px;
+    box-shadow: 0px 2px 3px 0px #0000001a;
+    &:hover{
+        background-color: transparent;
+        border-color: var(--color-primary);
+        color: var(--color-primary);
+    }
+}
+
+.button-secondary{
+    padding: 6px 22px;
+    background-color: var(--color-secondary);
+    color: var(--white);
+    border: 1px solid transparent;
+    transition: all linear 0.2s;
+    border-radius: 0px;
+    box-shadow: 0px 2px 3px 0px #0000001a;
+    &:hover{
+        background-color: transparent;
+        border-color: var(--color-secondary);
+        color: var(--color-secondary);
+    }
+}
+
+.button-cancel{
+    padding: 6px 22px;
+    background-color: var(--color-destructive);
+    color: var(--white);
+    border: 1px solid transparent;
+    transition: all linear 0.2s;
+    border-radius: 0px;
+    box-shadow: 0px 2px 3px 0px #0000001a;
+    &:hover{
+        background-color: transparent;
+        border-color: var(--color-destructive);
+        color: var(--color-destructive);
+    }
+}
